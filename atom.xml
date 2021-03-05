@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://aianita.github.io</id>
+    <id>https://aianita.github.io/</id>
     <title>Dreamer。</title>
-    <updated>2021-02-24T08:26:15.551Z</updated>
+    <updated>2021-03-05T08:32:02.999Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://aianita.github.io"/>
+    <link rel="alternate" href="https://aianita.github.io/"/>
     <link rel="self" href="https://aianita.github.io/atom.xml"/>
     <subtitle>自留地。</subtitle>
     <logo>https://aianita.github.io/images/avatar.png</logo>
