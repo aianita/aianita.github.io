@@ -1,120 +1,56 @@
-
-<!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>首記 | Daydreamer</title>
-<meta name="description" content="">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://aianita.github.io//favicon.ico?v=1615118784768">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://aianita.github.io//favicon.ico?v=1615118833585">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://aianita.github.io//styles/main.css">
-
-
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
-
-  
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="alternate" type="application/atom+xml" title="首記 | Daydreamer - Atom Feed" href="https://aianita.github.io//atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
+    <meta name="description" content="為什麼一定要重新開始寫日誌，最主要是想把自己的一些偏激/不偏激的想法都更好的紀錄下來。
+重新開始之前我去認真地翻找了以前的舊blogs，但無論是163、sina、豆瓣以及網外的站點，通通也都沒找回來，很想知道10年前自己立過的flag是什麼..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://aianita.github.io/">
-        <img class="avatar" src="https://aianita.github.io//images/avatar.png?v=1615118784768" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://aianita.github.io/">
-        <h1 class="site-title">Daydreamer</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://aianita.github.io/">
+  <img class="avatar" src="https://aianita.github.io//images/avatar.png?v=1615118833585" alt="">
+  </a>
+  <h1 class="site-title">
+    Daydreamer
+  </h1>
+  <p class="site-description">
+    
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          HOME
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          手記生活
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          ABOUT
+        </a>
+      
+    
   </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            HOME
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            手記生活
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            ABOUT
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-        <div class="post-detail">
-          
-          <h2 class="post-title">首記</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2021-03-07</span>
-            
-          </div>
-          <div class="post-content">
-            <p>為什麼一定要重新開始寫日誌，最主要是想把自己的一些偏激/不偏激的想法都更好的紀錄下來。<br>
-重新開始之前我去認真地翻找了以前的舊blogs，但無論是163、sina、豆瓣以及網外的站點，通通也都沒找回來，很想知道10年前自己立過的flag是什麼，除了月入十萬其他的有沒有實現過。</p>
-<p>今天去參觀了陳sir新裝修後的房子。上一次造訪他家大約是3年前或者更久之前。之所以去得很少，最主要是因為樓梯樓9樓實在是太考驗30歲的我。爬上去分別在3樓、5樓、7樓都停歇了1分鐘。<br>
-但不得不說陳sir真的把自己的房子翻修得很好，人一走進去就覺得很peace。</p>
-<p>吃了陳sir手包的餃子，喝了手沖的咖啡，斷斷續續地聊了2個小時。<br>
-上一次跟朋友這樣子peace的聊天感覺是很遙遠的事情了。要不是在喧鬧的酒吧或者下午茶，要不是在微信裡。面對面聊天的感覺很不一樣。</p>
-<p>我們都不算是對生活有極高追求的人，只是想要更多自己時間的掌握權。<br>
-我面試轉崗成功之後，至少收到了3-5個人的不理解。在sales崗位上我可能不是top1但營收和個人收入都是在top5行列了，人人都問我為什麼選擇自降一半薪酬轉崗中台。雖然我都對外說「我想我的職業生涯和能力模型都有更豐富的體驗」，但實際上我更多想要的還是自我安靜獨處的時間。不是指物理上我自己待著，而是精神上當我想要與自己對話的時候能夠停下來。<br>
-sales的職業7年不是我自己主動選擇的，但是我是一旦上去了就不能輸給別人的性格，在這個崗位上自己感覺日復一日特別痛苦。今年我已然覺得銷售的收入和名利前茅都不能帶給我興奮感了，跟老闆談轉崗的時候也非常堅決，老闆終於也痛快地放了我轉崗。</p>
-<p>想到雖然收入少了一半，但是我的閒暇時間或者自我休停時間也會多一半。我覺得對於邁過了經濟需求階段的自己來說，後者價值更甚。</p>
-<p>從陳sir家下樓的時候心裡想著，如果我有機會有下一套房子，我也希望自己學會斷捨離，一個簡單簡約的house，裝下自己內心的peace和安靜。<br>
-但是果然還是浮躁，走到心理諮詢工作室的路上經過萬菱匯就馬上給自己買了一條黑色的連衣裙。路漫漫長呢。</p>
-
-          </div>
-        </div>
-
-        
-      </div>
-
-      
-        
-          <div id="gitalk-container"></div>
-        
-
-        
-      
-
-      <div class="site-footer">
-  <div class="slogan"></div>
   <div class="social-container">
     
       
@@ -128,49 +64,125 @@ sales的職業7年不是我自己主動選擇的，但是我是一旦上去了�
       
     
   </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Anita</a> | <a class="rss" href="https://aianita.github.io//atom.xml" target="_blank">RSS</a>
 </div>
 
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              首記
+            </h2>
+            <div class="post-info">
+              <span>
+                2021-03-07
+              </span>
+              <span>
+                3 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>為什麼一定要重新開始寫日誌，最主要是想把自己的一些偏激/不偏激的想法都更好的紀錄下來。<br>
+重新開始之前我去認真地翻找了以前的舊blogs，但無論是163、sina、豆瓣以及網外的站點，通通也都沒找回來，很想知道10年前自己立過的flag是什麼，除了月入十萬其他的有沒有實現過。</p>
+<p>今天去參觀了陳sir新裝修後的房子。上一次造訪他家大約是3年前或者更久之前。之所以去得很少，最主要是因為樓梯樓9樓實在是太考驗30歲的我。爬上去分別在3樓、5樓、7樓都停歇了1分鐘。<br>
+但不得不說陳sir真的把自己的房子翻修得很好，人一走進去就覺得很peace。</p>
+<p>吃了陳sir手包的餃子，喝了手沖的咖啡，斷斷續續地聊了2個小時。<br>
+上一次跟朋友這樣子peace的聊天感覺是很遙遠的事情了。要不是在喧鬧的酒吧或者下午茶，要不是在微信裡。面對面聊天的感覺很不一樣。</p>
+<p>我們都不算是對生活有極高追求的人，只是想要更多自己時間的掌握權。<br>
+我面試轉崗成功之後，至少收到了3-5個人的不理解。在sales崗位上我可能不是top1但營收和個人收入都是在top5行列了，人人都問我為什麼選擇自降一半薪酬轉崗中台。雖然我都對外說「我想我的職業生涯和能力模型都有更豐富的體驗」，但實際上我更多想要的還是自我安靜獨處的時間。不是指物理上我自己待著，而是精神上當我想要與自己對話的時候能夠停下來。<br>
+sales的職業7年不是我自己主動選擇的，但是我是一旦上去了就不能輸給別人的性格，在這個崗位上自己感覺日復一日特別痛苦。今年我已然覺得銷售的收入和名利前茅都不能帶給我興奮感了，跟老闆談轉崗的時候也非常堅決，老闆終於也痛快地放了我轉崗。</p>
+<p>想到雖然收入少了一半，但是我的閒暇時間或者自我休停時間也會多一半。我覺得對於邁過了經濟需求階段的自己來說，後者價值更甚。</p>
+<p>從陳sir家下樓的時候心裡想著，如果我有機會有下一套房子，我也希望自己學會斷捨離，一個簡單簡約的house，裝下自己內心的peace和安靜。<br>
+但是果然還是浮躁，走到心理諮詢工作室的路上經過萬菱匯就馬上給自己買了一條黑色的連衣裙。路漫漫長呢。</p>
 
-    </div>
-    <script type="application/javascript">
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
 
-hljs.initHighlightingOnLoad()
+        
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '',
+    clientSecret: '',
+    repo: '',
+    owner: '',
+    admin: [''],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
 
 </script>
 
+          
 
+          
+        
 
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Anita</a>
+  <a class="rss" href="https://aianita.github.io//atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
     <script>
+      hljs.initHighlightingOnLoad()
 
-      var gitalk = new Gitalk({
-        clientID: '',
-        clientSecret: '',
-        repo: '',
-        owner: '',
-        admin: [''],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
 
-      gitalk.render('gitalk-container')
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
 
     </script>
-  
-
-  
-
-
-
-
   </body>
 </html>
