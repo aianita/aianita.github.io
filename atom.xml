@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aianita.github.io/</id>
     <title>Daydreamer</title>
-    <updated>2021-03-05T09:48:00.778Z</updated>
+    <updated>2021-03-07T07:26:20.411Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aianita.github.io/"/>
     <link rel="self" href="https://aianita.github.io/atom.xml"/>
     <logo>https://aianita.github.io/images/avatar.png</logo>
     <icon>https://aianita.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Daydreamer</rights>
+    <entry>
+        <title type="html"><![CDATA[首記]]></title>
+        <id>https://aianita.github.io/post/shou-ji/</id>
+        <link href="https://aianita.github.io/post/shou-ji/">
+        </link>
+        <updated>2021-03-07T07:10:38.000Z</updated>
+        <content type="html"><![CDATA[<p>為什麼一定要重新開始寫日誌，最主要是想把自己的一些偏激/不偏激的想法都更好的紀錄下來。<br>
+重新開始之前我去認真地翻找了以前的舊blogs，但無論是163、sina、豆瓣以及網外的站點，通通也都沒找回來，很想知道10年前自己立過的flag是什麼，除了月入十萬其他的有沒有實現過。</p>
+<p>今天去參觀了陳sir新裝修後的房子。上一次造訪他家大約是3年前或者更久之前。之所以去得很少，最主要是因為樓梯樓9樓實在是太考驗30歲的我。爬上去分別在3樓、5樓、7樓都停歇了1分鐘。<br>
+但不得不說陳sir真的把自己的房子翻修得很好，人一走進去就覺得很peace。</p>
+<p>吃了陳sir手包的餃子，喝了手沖的咖啡，斷斷續續地聊了2個小時。<br>
+上一次跟朋友這樣子peace的聊天感覺是很遙遠的事情了。要不是在喧鬧的酒吧或者下午茶，要不是在微信裡。面對面聊天的感覺很不一樣。</p>
+<p>我們都不算是對生活有極高追求的人，只是想要更多自己時間的掌握權。<br>
+我面試轉崗成功之後，至少收到了3-5個人的不理解。在sales崗位上我可能不是top1但營收和個人收入都是在top5行列了，人人都問我為什麼選擇自降一半薪酬轉崗中台。雖然我都對外說「我想我的職業生涯和能力模型都有更豐富的體驗」，但實際上我更多想要的還是自我安靜獨處的時間。不是指物理上我自己待著，而是精神上當我想要與自己對話的時候能夠停下來。<br>
+sales的職業7年不是我自己主動選擇的，但是我是一旦上去了就不能輸給別人的性格，在這個崗位上自己感覺日復一日特別痛苦。今年我已然覺得銷售的收入和名利前茅都不能帶給我興奮感了，跟老闆談轉崗的時候也非常堅決，老闆終於也痛快地放了我轉崗。</p>
+<p>想到雖然收入少了一半，但是我的閒暇時間或者自我休停時間也會多一半。我覺得對於邁過了經濟需求階段的自己來說，後者價值更甚。</p>
+<p>從陳sir家下樓的時候心裡想著，如果我有機會有下一套房子，我也希望自己學會斷捨離，一個簡單簡約的house，裝下自己內心的peace和安靜。<br>
+但是果然還是浮躁，走到心理諮詢工作室的路上經過萬菱匯就馬上給自己買了一條黑色的連衣裙。路漫漫長呢。</p>
+]]></content>
+    </entry>
 </feed>
