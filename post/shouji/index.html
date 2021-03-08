@@ -1,19 +1,14 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
 <title>首記 | Daydreamer</title>
-<meta name="description" content="">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://aianita.github.io//favicon.ico?v=1615193168981">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://aianita.github.io//favicon.ico?v=1615193272280">
 <link rel="stylesheet" href="https://aianita.github.io//styles/main.css">
 
 
@@ -24,66 +19,80 @@
   
 
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
+    <meta name="description" content="為什麼一定要重新開始寫日誌，最主要是想把自己的一些偏激/不偏激的想法都更好的紀錄下來。
+重新開始之前我去認真地翻找了以前的舊blogs，但無論是163、sina、豆瓣以及網外的站點，通通也都沒找回來，很想知道10年前自己立過的flag是什麼..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://aianita.github.io/">
-        <img class="avatar" src="https://aianita.github.io//images/avatar.png?v=1615193168981" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://aianita.github.io/">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://aianita.github.io/">
+        <img src="https://aianita.github.io//images/avatar.png?v=1615193272280" class="site-logo">
         <h1 class="site-title">Daydreamer</h1>
       </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
+    <div>
       
         
-          <a href="/" class="menu purple-link">
+          <a href="/" class="site-nav">
             HOME
           </a>
         
       
         
-          <a href="/archives" class="menu purple-link">
+          <a href="/archives" class="site-nav">
             手記生活
           </a>
         
       
     </div>
   </div>
-</transition>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Anita</a> | <a class="rss" href="https://aianita.github.io//atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
 
-      <div class="content-container">
-        <div class="post-detail">
-          
-            <div class="feature-container" style="background-image: url('https://aianita.github.io//post-images/shouji.jpeg')">
-            </div>
-          
-          <h2 class="post-title">首記</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2021-03-07</span>
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">首記</h2>
+            <div class="post-date">2021-03-07</div>
             
-          </div>
-          <div class="post-content">
-            <p>為什麼一定要重新開始寫日誌，最主要是想把自己的一些偏激/不偏激的想法都更好的紀錄下來。<br>
+              <div class="feature-container" style="background-image: url('https://aianita.github.io//post-images/shouji.jpeg')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <p>為什麼一定要重新開始寫日誌，最主要是想把自己的一些偏激/不偏激的想法都更好的紀錄下來。<br>
 重新開始之前我去認真地翻找了以前的舊blogs，但無論是163、sina、豆瓣以及網外的站點，通通也都沒找回來，很想知道10年前自己立過的flag是什麼，除了月入十萬其他的有沒有實現過。</p>
 <p>今天去參觀了陳sir新裝修後的房子。上一次造訪他家大約是3年前或者更久之前。之所以去得很少，最主要是因為樓梯樓9樓實在是太考驗30歲的我。爬上去分別在3樓、5樓、7樓都停歇了1分鐘。<br>
 但不得不說陳sir真的把自己的房子翻修得很好，人一走進去就覺得很peace。</p>
@@ -96,43 +105,28 @@ sales的職業7年不是我自己主動選擇的，但是我是一旦上去了�
 <p>從陳sir家下樓的時候心裡想著，如果我有機會有下一套房子，我也希望自己學會斷捨離，一個簡單簡約的house，裝下自己內心的peace和安靜。<br>
 但是果然還是浮躁，走到心理諮詢工作室的路上經過萬菱匯就馬上給自己買了一條黑色的連衣裙。路漫漫長呢。</p>
 
+            </div>
+            
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
           </div>
+
         </div>
-
-        
       </div>
-
-      
-        
-          <div id="gitalk-container"></div>
-        
-
-        
-      
-
-      <div class="site-footer">
-  <div class="slogan"></div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Anita</a> | <a class="rss" href="https://aianita.github.io//atom.xml" target="_blank">RSS</a>
-</div>
-
-
     </div>
-    <script type="application/javascript">
 
-hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
 
 var app = new Vue({
   el: '#app',
@@ -142,6 +136,8 @@ var app = new Vue({
 })
 
 </script>
+
+
 
 
 
