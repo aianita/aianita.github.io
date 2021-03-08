@@ -1,131 +1,103 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Daydreamer</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://aianita.github.io//favicon.ico?v=1615193272280">
+<link rel="shortcut icon" href="https://aianita.github.io//favicon.ico?v=1615193416976">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://aianita.github.io//styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Daydreamer - Atom Feed" href="https://aianita.github.io//atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-
-
-    <meta name="description" content="">
-    
+    <meta name="description" content="" />
   </head>
   <body>
-    <div id="app" class="main">
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://aianita.github.io/">
+  <img class="avatar" src="https://aianita.github.io//images/avatar.png?v=1615193416976" alt="">
+  </a>
+  <h1 class="site-title">
+    Daydreamer
+  </h1>
+  <p class="site-description">
+    
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          HOME
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          手記生活
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
 
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://aianita.github.io/">
-        <img src="https://aianita.github.io//images/avatar.png?v=1615193272280" class="site-logo">
-        <h1 class="site-title">Daydreamer</h1>
+    
+        <div class="post-container">
+  
+    <article class="post">
+      <a href="https://aianita.github.io/post/shouji/">
+        <h2 class="post-title">首記</h2>
       </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
+      <div class="post-info">
+        <span>
+          2021-03-07
+        </span>
+        <span>
+          3 min read
+        </span>
+        
       </div>
-    </div>
-    <div>
       
+        <a href="https://aianita.github.io/post/shouji/" class="post-feature-image" style="background-image: url('https://aianita.github.io//post-images/shouji.jpeg')">
+        </a>
+      
+      <div class="post-abstract">
         
-          <a href="/" class="site-nav">
-            HOME
-          </a>
-        
-      
-        
-          <a href="/archives" class="site-nav">
-            手記生活
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Anita</a> | <a class="rss" href="https://aianita.github.io//atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
+      </div>
+    </article>
+  
 </div>
 
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://aianita.github.io/post/shouji/">
-                  <h2 class="post-title">首記</h2>
-                </a>
-                <div class="post-date">
-                  2021-03-07
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-                <a class="right" href="https://aianita.github.io/post/shouji/">
-                  <div class="feature-container" style="background-image: url('https://aianita.github.io//post-images/shouji.jpeg')">
-                  </div>
-                </a>
-              
-            </article>
-          
-
-          <div class="pagination-container">
+    
+        <div class="pagination-container">
   
   
 </div>
 
-        </div>
+    
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Anita</a>
+  <a class="rss" href="https://aianita.github.io//atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
       </div>
     </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
-
-AOS.init();
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
-
-
-
-
-
-
   </body>
 </html>
