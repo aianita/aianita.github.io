@@ -2,13 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aianita.github.io/</id>
     <title>Daydreamer</title>
-    <updated>2021-03-08T14:12:33.294Z</updated>
+    <updated>2021-03-11T04:07:27.236Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aianita.github.io/"/>
     <link rel="self" href="https://aianita.github.io/atom.xml"/>
     <logo>https://aianita.github.io/images/avatar.png</logo>
     <icon>https://aianita.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Daydreamer</rights>
+    <entry>
+        <title type="html"><![CDATA[令我頭疼的工作人際]]></title>
+        <id>https://aianita.github.io/post/ling-wo-tou-teng-de-gong-zuo-ren-ji/</id>
+        <link href="https://aianita.github.io/post/ling-wo-tou-teng-de-gong-zuo-ren-ji/">
+        </link>
+        <updated>2021-03-11T03:18:32.000Z</updated>
+        <content type="html"><![CDATA[<p>近期轉崗確認成功，不僅接收到原sales崗位的多人質疑：「轉崗之後工資超級低的」「別以為轉崗了就不需要加班了」等等言論，同時也接到別人的“善意”忠告：「中台派系勾心鬥角站位很嚴重，你可要注意了」。<br>
+甚者， 還有人幫我列出了中台絕對不能得罪的top5排行榜。</p>
+<p>轉崗成功的喜悅還沒有完全享受完，就感覺我要進入一個人際關係的戰場，很快要被“祭天”。</p>
+<p>sales部門雖然業績壓力大，但由於制度嚴明，大家之間也較少存在為了業績勾心鬥角搶單子的情況，總體來說大家都是單純的並且有友誼的。👬<br>
+我的性格比起很多人來說都是直接的，這種性格在sales崗位上是直爽好溝通，到中台去如果不收斂大概率被“穿小鞋”。😭</p>
+<p>雖然我入行也有7-8年，但是我覺得自己愚笨的腦子還沒學會如何向上向左向右管理。<br>
+以前不考慮晉升主管崗位，也有一部分原因是想減少與人溝通。<br>
+中台雖然看重個人能力，但是也需要協作能力。如果大家都正常理智地互相配合協調，對我來說問題不大。如果需要我去猜測對方的訴求、然後迎合對方、最後才能大家好好一起工作，那我的態度可能是「我做好我的分內工作，開心的話我就幫一下你，不開心的話你就自己幹。我不打算主動搞你，但是搞我我也會翻臉」。</p>
+<p>未來同一個部門的della跟我說，做好自己的本職，拿出漂亮的成績單，少說話。<br>
+我感覺我跟della能成為好朋友。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[「主動」這件事]]></title>
         <id>https://aianita.github.io/post/zhudong/</id>
