@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aianita.github.io/</id>
     <title>Daydreamer</title>
-    <updated>2021-03-13T14:24:28.308Z</updated>
+    <updated>2021-03-13T14:52:24.116Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aianita.github.io/"/>
     <link rel="self" href="https://aianita.github.io/atom.xml"/>
@@ -11,9 +11,16 @@
     <icon>https://aianita.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Daydreamer</rights>
     <entry>
+        <title type="html"><![CDATA[買房難，買男朋友的房子更難]]></title>
+        <id>https://aianita.github.io/maifangnan/</id>
+        <link href="https://aianita.github.io/maifangnan/">
+        </link>
+        <updated>2021-03-13T14:31:48.000Z</updated>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[令我頭疼的工作人際]]></title>
-        <id>https://aianita.github.io/ling-wo-tou-teng-de-gong-zuo-ren-ji/</id>
-        <link href="https://aianita.github.io/ling-wo-tou-teng-de-gong-zuo-ren-ji/">
+        <id>https://aianita.github.io/gongzuorenji/</id>
+        <link href="https://aianita.github.io/gongzuorenji/">
         </link>
         <updated>2021-03-11T03:18:32.000Z</updated>
     </entry>
