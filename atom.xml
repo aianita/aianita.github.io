@@ -2,17 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aianita.github.io/</id>
     <title>Daydreamer</title>
-    <updated>2021-03-11T04:07:27.236Z</updated>
+    <updated>2021-03-13T13:59:46.621Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aianita.github.io/"/>
     <link rel="self" href="https://aianita.github.io/atom.xml"/>
+    <subtitle>亦知終是有晴時</subtitle>
     <logo>https://aianita.github.io/images/avatar.png</logo>
     <icon>https://aianita.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Daydreamer</rights>
     <entry>
         <title type="html"><![CDATA[令我頭疼的工作人際]]></title>
-        <id>https://aianita.github.io/post/ling-wo-tou-teng-de-gong-zuo-ren-ji/</id>
-        <link href="https://aianita.github.io/post/ling-wo-tou-teng-de-gong-zuo-ren-ji/">
+        <id>https://aianita.github.io/ling-wo-tou-teng-de-gong-zuo-ren-ji/</id>
+        <link href="https://aianita.github.io/ling-wo-tou-teng-de-gong-zuo-ren-ji/">
         </link>
         <updated>2021-03-11T03:18:32.000Z</updated>
         <content type="html"><![CDATA[<p>近期轉崗確認成功，不僅接收到原sales崗位的多人質疑：「轉崗之後工資超級低的」「別以為轉崗了就不需要加班了」等等言論，同時也接到別人的“善意”忠告：「中台派系勾心鬥角站位很嚴重，你可要注意了」。<br>
@@ -29,8 +30,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[「主動」這件事]]></title>
-        <id>https://aianita.github.io/post/zhudong/</id>
-        <link href="https://aianita.github.io/post/zhudong/">
+        <id>https://aianita.github.io/zhudong/</id>
+        <link href="https://aianita.github.io/zhudong/">
         </link>
         <updated>2021-03-08T13:16:12.000Z</updated>
         <content type="html"><![CDATA[<p>近期觀好友華哥與曖昧對象曖昧不清，兩個人都艱難邁不出下一步，令我怒其不爭。<br>
@@ -51,8 +52,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[參觀隨記]]></title>
-        <id>https://aianita.github.io/post/shouji/</id>
-        <link href="https://aianita.github.io/post/shouji/">
+        <id>https://aianita.github.io/shouji/</id>
+        <link href="https://aianita.github.io/shouji/">
         </link>
         <updated>2021-03-07T07:10:38.000Z</updated>
         <content type="html"><![CDATA[<p>為什麼一定要重新開始寫日誌，最主要是想把自己的一些偏激/不偏激的想法都更好的紀錄下來。<br>
@@ -71,8 +72,8 @@ sales的職業7年不是我自己主動選擇的，但是我是一旦上去了�
     </entry>
     <entry>
         <title type="html"><![CDATA[咨詢日📖🖊️]]></title>
-        <id>https://aianita.github.io/post/zixunri/</id>
-        <link href="https://aianita.github.io/post/zixunri/">
+        <id>https://aianita.github.io/zixunri/</id>
+        <link href="https://aianita.github.io/zixunri/">
         </link>
         <updated>2021-02-19T10:44:13.000Z</updated>
         <content type="html"><![CDATA[<p>自己想總結一下今天心理諮詢的重要點，畢竟是要自己執行的，不希望自己白浪費了時間和金錢又毫無所獲。<br>
@@ -108,8 +109,8 @@ sales的職業7年不是我自己主動選擇的，但是我是一旦上去了�
     </entry>
     <entry>
         <title type="html"><![CDATA[「明日去做心理諮詢」]]></title>
-        <id>https://aianita.github.io/post/xinlizixun/</id>
-        <link href="https://aianita.github.io/post/xinlizixun/">
+        <id>https://aianita.github.io/xinlizixun/</id>
+        <link href="https://aianita.github.io/xinlizixun/">
         </link>
         <updated>2021-02-18T15:27:22.000Z</updated>
         <content type="html"><![CDATA[<p>春節前我預約了一次心理諮詢，當時自己並不是很堅定要去，同時老盧也稍稍勸阻了一下，遂作罷。<br>
@@ -126,8 +127,8 @@ sales的職業7年不是我自己主動選擇的，但是我是一旦上去了�
     </entry>
     <entry>
         <title type="html"><![CDATA[春節之後想說一下生孩子]]></title>
-        <id>https://aianita.github.io/post/shenghaizi/</id>
-        <link href="https://aianita.github.io/post/shenghaizi/">
+        <id>https://aianita.github.io/shenghaizi/</id>
+        <link href="https://aianita.github.io/shenghaizi/">
         </link>
         <updated>2021-02-15T13:22:32.000Z</updated>
         <content type="html"><![CDATA[<p>想說生孩子這件事，有兩個原因。<br>
@@ -150,8 +151,8 @@ sales的職業7年不是我自己主動選擇的，但是我是一旦上去了�
     </entry>
     <entry>
         <title type="html"><![CDATA[大年初一🎉🧧🧨]]></title>
-        <id>https://aianita.github.io/post/danianchuyi/</id>
-        <link href="https://aianita.github.io/post/danianchuyi/">
+        <id>https://aianita.github.io/danianchuyi/</id>
+        <link href="https://aianita.github.io/danianchuyi/">
         </link>
         <updated>2021-02-12T16:46:05.000Z</updated>
         <content type="html"><![CDATA[<p>回到小城裡，人們對我的態度有兩種。<br>
