@@ -1,132 +1,117 @@
-<html>
-  <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>Daydreamer</title>
-<link rel="shortcut icon" href="https://aianita.github.io//favicon.ico?v=1616232837169">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://aianita.github.io//favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://aianita.github.io//media/css/tailwind.css">
 <link rel="stylesheet" href="https://aianita.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="Daydreamer - Atom Feed" href="https://aianita.github.io//atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
-
-
-
-    <meta name="description" content="亦知終是有晴時" />
-  </head>
-  <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://aianita.github.io/">
-  <img class="avatar" src="https://aianita.github.io//images/avatar.png?v=1616232837169" alt="">
-  </a>
-  <h1 class="site-title">
-    Daydreamer
-  </h1>
-  <p class="site-description">
-    亦知終是有晴時
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          HOME
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          手記生活
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-</div>
 
     
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://aianita.github.io/shenghaizi/">
-        <h2 class="post-title">春節之後想說一下生孩子</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2021-02-15
-        </span>
-        <span>
-          3 min read
-        </span>
-        
-          <a href="https://aianita.github.io/fenqing/" class="post-tag">
-            # 憤青思想
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://aianita.github.io/danianchuyi/">
-        <h2 class="post-title">大年初一🎉🧧🧨</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2021-02-13
-        </span>
-        <span>
-          4 min read
-        </span>
-        
-          <a href="https://aianita.github.io/fenqing/" class="post-tag">
-            # 憤青思想
-          </a>
-        
-      </div>
-      
-        <a href="https://aianita.github.io/danianchuyi/" class="post-feature-image" style="background-image: url('https://aianita.github.io//post-images/danianchuyi.jpg')">
-        </a>
-      
-      <div class="post-abstract">
-        
-      </div>
-    </article>
-  
-</div>
 
-    
-        <div class="pagination-container">
-  
-    <a href="https://aianita.github.io/page/2/" class="prev-page">上一页</a>
-  
-  
-</div>
+  <meta name="description" content="亦知終是有晴時" />
+</head>
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
 
-    
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Anita</a>
-  <a class="rss" href="https://aianita.github.io//atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
-      </div>
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
     </div>
-  </body>
+  </div>
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+    
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        HOME
+      </a>
+    
+      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        手記生活
+      </a>
+    
+    <a href="https://aianita.github.io//atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
+</div>
+
+    <div class="max-w-4xl w-full mx-auto pt-32">
+      
+
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+        
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://aianita.github.io/shenghaizi/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          春節之後想說一下生孩子
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2021-02-15</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        想說生孩子這件事，有兩個原因。
+一個是大年初二二妹快樂地回娘家，卻因為同一年出嫁的堂妹已經懷孕五個月而遭受了長輩的言語批判。
+今年的催婚催育勢頭，上至32的我，下至22的應屆生堂弟妹都在催促之列。
+我很能理解二妹回家之後的哭泣。她在我們孩子...
+      </div>
+      <a href="https://aianita.github.io/shenghaizi/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://aianita.github.io/danianchuyi/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          大年初一🎉🧧🧨
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2021-02-13</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        回到小城裡，人們對我的態度有兩種。
+好的那一種是覺得我在小城裡出去外面闖世界的年輕人裡屬於收入奇高的那種，希望他們的兒女靠近我學習我工作上的努力奮進，來年春節也學我給他們的父母進貢三五萬。
+壞的那一種是嘴上跟我套近乎，但是私下裡嚴禁尤其女兒...
+      </div>
+      <a href="https://aianita.github.io/danianchuyi/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://aianita.github.io//post-images/danianchuyi.jpg" alt="大年初一🎉🧧🧨">
+    
+  </div>
+  
+      </div>
+
+      
+  <div class="my-4 flex justify-between px-4 md:px-0">
+    
+      <a href="https://aianita.github.io/page/2/" class="btn btn-white">
+        <i class="ri-arrow-left-line mr-4"></i>
+        上一页
+      </a>
+    
+    
+  </div>
+
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Anita</a>
+</footer>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://aianita.github.io//media/scripts/main.js"></script>
+</body>
+
 </html>
