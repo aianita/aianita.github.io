@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Daydreamer</title>
+<link rel="shortcut icon" href="https://ainita.com/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://ainita.com/media/css/tailwind.css">
+<link rel="stylesheet" href="https://ainita.com/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Daydreamer - Atom Feed" href="https://ainita.com/atom.xml">
+
+    
+
+  <meta name="description" content="亦知終是有晴時" />
+</head>
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
+
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
+    </div>
+  </div>
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+    
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        HOME
+      </a>
+    
+      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        手記生活
+      </a>
+    
+    <a href="https://ainita.com/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
+</div>
+
+    <div class="max-w-4xl w-full mx-auto pt-32">
+      <h1 class="text-2xl font-bold pb-8 flex justify-center items-center">
+        <i class="ri-hashtag"></i>
+        生活記事
+      </h1>
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+        
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://ainita.com/zixunri/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          咨詢日📖🖊️
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2021-02-19</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        自己想總結一下今天心理諮詢的重要點，畢竟是要自己執行的，不希望自己白浪費了時間和金錢又毫無所獲。
+30mins的時間跟咨詢師溝通了過去3個月的大概情況，並詳細說了2次自我感覺情緒失控的情況。30mins的時間咨詢師提問我回答。
+
+
+每個人都...
+      </div>
+      <a href="https://ainita.com/zixunri/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://ainita.com/xinlizixun/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          「明日去做心理諮詢」
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2021-02-18</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        春節前我預約了一次心理諮詢，當時自己並不是很堅定要去，同時老盧也稍稍勸阻了一下，遂作罷。
+今天我花了半天時間做功課，中午的時候預約了「爭渡」心理諮詢工作室，並且是最快的時間明天下午就要去。
+我感覺到我自己再不去可能會發展成最不可思議的抑鬱，...
+      </div>
+      <a href="https://ainita.com/xinlizixun/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+  
+      </div>
+
+      
+  <div class="my-4 flex justify-between px-4 md:px-0">
+    
+      <a href="https://ainita.com/jishi" class="btn btn-white">
+        <i class="ri-arrow-left-line mr-4"></i>
+        上一页
+      </a>
+    
+    
+  </div>
+
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Anita</a>
+</footer>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://ainita.com/media/scripts/main.js"></script>
+</body>
+</html>

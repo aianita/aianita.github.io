@@ -1,0 +1,163 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Daydreamer</title>
+<link rel="shortcut icon" href="https://ainita.com/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://ainita.com/media/css/tailwind.css">
+<link rel="stylesheet" href="https://ainita.com/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Daydreamer - Atom Feed" href="https://ainita.com/atom.xml">
+
+    
+
+  <meta name="description" content="亦知終是有晴時" />
+</head>
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
+
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
+    </div>
+  </div>
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+    
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        HOME
+      </a>
+    
+      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        手記生活
+      </a>
+    
+    <a href="https://ainita.com/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
+</div>
+
+    <div class="max-w-4xl w-full mx-auto pt-32">
+      
+
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+        
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://ainita.com/maifangnan/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          買房難，買男朋友的房子更難
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2021-03-13</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        我跟老盧一起奔波在看房的路途上大約有三次。我這輩子就是操心命，但我想改改自己的壞毛病。
+從去年此時老盧神來一句「不如買個房子」，我就認真研究如果我男朋友要買個房應該買什麼地區朝向最好。間中還約了1-2次中介帶看，但最後老盧都沒跟我一起同行。...
+      </div>
+      <a href="https://ainita.com/maifangnan/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://ainita.com/post-images/maifangnan.png" alt="買房難，買男朋友的房子更難">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://ainita.com/gongzuorenji/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          令我頭疼的工作人際
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2021-03-11</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        近期轉崗確認成功，不僅接收到原sales崗位的多人質疑：「轉崗之後工資超級低的」「別以為轉崗了就不需要加班了」等等言論，同時也接到別人的“善意”忠告：「中台派系勾心鬥角站位很嚴重，你可要注意了」。
+甚者， 還有人幫我列出了中台絕對不能得罪的...
+      </div>
+      <a href="https://ainita.com/gongzuorenji/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://ainita.com/post-images/gongzuorenji.png" alt="令我頭疼的工作人際">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://ainita.com/zhudong/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          「主動」這件事
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2021-03-08</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        近期觀好友華哥與曖昧對象曖昧不清，兩個人都艱難邁不出下一步，令我怒其不爭。
+間中我和老盧都通過勸酒、美言等笨拙的方式製造機會，甚至在陪同他們一起去華哥鄉下佯裝情侶見父母的時候希望假戲真做，老盧也曾在華哥的拜託下半夜凌晨從酒場幫忙接該女生回家...
+      </div>
+      <a href="https://ainita.com/zhudong/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://ainita.com/shouji/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          參觀隨記
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2021-03-07</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        為什麼一定要重新開始寫日誌，最主要是想把自己的一些偏激/不偏激的想法都更好的紀錄下來。
+重新開始之前我去認真地翻找了以前的舊blogs，但無論是163、sina、豆瓣以及網外的站點，通通也都沒找回來，很想知道10年前自己立過的flag是什麼...
+      </div>
+      <a href="https://ainita.com/shouji/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://ainita.com/post-images/shouji.jpeg" alt="參觀隨記">
+    
+  </div>
+  
+      </div>
+
+      
+  <div class="my-4 flex justify-between px-4 md:px-0">
+    
+      <a href="https://ainita.com/" class="btn btn-white">
+        <i class="ri-arrow-left-line mr-4"></i>
+        上一页
+      </a>
+    
+    
+      <a href="https://ainita.com/page/3/" class="btn btn-white">
+        下一页
+        <i class="ri-arrow-right-line ml-4"></i>
+      </a>
+    
+  </div>
+
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Anita</a>
+</footer>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://ainita.com/media/scripts/main.js"></script>
+</body>
+
+</html>
